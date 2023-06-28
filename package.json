@@ -1,0 +1,29 @@
+{
+  "name": "simple-http-proxy-server",
+  "version": "1.0.0",
+  "description": "Simple proxy server for paxful",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverC0de/simple-http-proxy-server.git"
+  },
+  "keywords": [
+    "http",
+    "proxy",
+    "server"
+  ],
+  "author": "Balogun Silver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SilverC0de/simple-http-proxy-server/issues"
+  },
+  "homepage": "https://github.com/SilverC0de/simple-http-proxy-server#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
