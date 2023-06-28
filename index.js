@@ -22,7 +22,7 @@ app.use(
 
 // Other routes
 app.all('*', (request, response) => {
-    response.status(404).send('Not found')
+    response.status(200).send('Simple HTTP Proxy Server')
 });
 
 // Starting our Proxy server
